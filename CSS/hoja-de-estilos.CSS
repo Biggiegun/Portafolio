@@ -1,0 +1,365 @@
+@media only screen and (max-width: 700px) {
+  body{
+    color: white;
+    font-family: Lato;
+    width: 100%;
+  }
+  #navbar{
+    background-color: #8BD8BD;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #navbar a{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+  #welcome-section{
+    padding-top: 12em;
+    background-color: #243665;
+    padding-bottom: 2em;
+    text-align: end;
+    height: 67vh;
+  }
+
+  h1{
+    padding-right: 0.5em;
+    
+  }
+  h1:hover{
+    color: greenyellow;
+  }
+  
+  #navbar a:hover{
+    color: black;
+  }
+
+  #projects{
+    background-color: #243665;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 0em;
+    display: grid;
+    grid-template-areas: "desarrollos"
+                        "formulario"
+                        "documentation"
+                        "landing";
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .project-tile {
+    background-color: #8BD8BD;
+    border: 1px solid black;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  #acercaDe{
+    background-color: #243665;
+    padding-top: 8em;
+    padding-bottom: 10em;
+    text-align: center;
+    font-size: 2em;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+#acercaDe a{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#formulario{
+  border: 1px solid #243665;
+  grid-area: formulario;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  margin: 2.5em;
+  border-radius: 1em;
+}
+#documentation{
+  border: 1px solid #243665;
+  grid-area: documentation;
+  padding-top: 2.5em;
+  padding-bottom: 2em;
+  margin: 2.5em;
+  border-radius: 1em;
+}
+#landing{
+  border: 1px solid #243665;
+  grid-area: landing;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  margin: 2.5em;
+  border-radius: 1em;
+}
+#desarrollos{
+  border: 1px solid white;
+  border-radius: 1em;
+  grid-area: desarrollos;
+  font-size: xx-large;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  margin: 2.5em 0.5em;
+
+  animation-name: animacion;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#desarrollos:hover{
+  color: greenyellow;
+}
+
+#imgForm{
+width: 30%;
+height: 30%;
+}
+#imgForm:hover{
+  transform: scale(1.25);
+}
+
+#imgDoc{
+  width: 30%;
+  height: 45%;
+  margin-bottom: 1.5em;
+}
+#imgDoc:hover{
+  transform: scale(1.25);
+}
+
+#imgLand{
+  width: 30%;
+  height: 30%;
+}
+#imgLand:hover{
+  transform: scale(1.25);
+}
+
+#profile-link:hover{
+color: greenyellow;
+}
+
+#participar:hover{
+color: black;
+}
+
+#fabricacion:hover{
+color: black;
+}
+
+#saber:hover{
+color:black;
+}
+}
+@keyframes animacion{
+  0% {font-size: small;
+    color: greenyellow;}
+  10% {font-size: small;
+    color: greenyellow;}
+  20%{font-size: small;
+    color: greenyellow;}
+  30%{font-size: small;
+    color: greenyellow;}
+  40%{font-size: medium;
+    color: greenyellow;}
+  50%{font-size: medium;
+    color: greenyellow;}
+  60%{font-size: medium;
+    color: greenyellow;}
+  70%{font-size: medium;
+    color: greenyellow;}
+  80%{font-size: xx-large;
+    color: greenyellow;}
+  90%{font-size: xx-large;
+    color: greenyellow;}
+  100%{font-size: xx-large;
+    color: greenyellow;}
+}
+/* ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 701px) {
+  body{
+    color: white;
+    font-family: Lato;
+    width: 100%;
+  }
+  #navbar{
+    background-color: #8BD8BD;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+  }
+  #navbar a{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+  #welcome-section{
+    padding-top: 12em;
+    background-color: #243665;
+    padding-bottom: 2em;
+    text-align: end;
+    height: 67vh;
+  }
+
+  h1{
+    padding-right: 0.5em;
+  }
+  h1:hover{
+    color: greenyellow;
+  }
+  
+  #navbar a:hover{
+    color: black;
+  }
+
+  #projects{
+    background-color: #243665;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 0em;
+    display: grid;
+    grid-template-areas: "desarrollos desarrollos desarrollos"
+                        "formulario documentation landing";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .project-tile {
+    background-color: #8BD8BD;
+    border: 1px solid black;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  #acercaDe{
+    background-color: #243665;
+    padding-top: 8em;
+    padding-bottom: 10em;
+    text-align: center;
+    font-size: 2em;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+#acercaDe a{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#formulario{
+  border: 1px solid #243665;
+  grid-area: formulario;
+  
+}
+#documentation{
+  border: 1px solid #243665;
+  grid-area: documentation;
+}
+#landing{
+  border: 1px solid #243665;
+  grid-area: landing;
+}
+#desarrollos{
+  border: 1px solid white;
+  border-radius: 1em;
+  grid-area: desarrollos;
+  font-size: xx-large;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  margin: 2.5em 3.5em;
+
+  animation-name: animacion1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#desarrollos:hover{
+  color: greenyellow;
+}
+
+#imgForm{
+width: 50%;
+height: 50%;
+}
+#imgForm:hover{
+  opacity: 50%;
+}
+#imgDoc{
+  width: 50%;
+  height: 50%;
+}
+#imgDoc:hover{
+  opacity: 50%;
+}
+#imgLand{
+  width: 50%;
+  height: 50%;
+}
+#imgLand:hover{
+  opacity: 50%;
+}
+
+#profile-link:hover{
+color: greenyellow;
+}
+
+#participar:hover{
+color: black;
+}
+
+#fabricacion:hover{
+color: black;
+}
+
+#saber:hover{
+color:black;
+}
+
+}
+@keyframes animacion1{
+  0% {font-size: 5vw;
+      color: white;
+    margin: 0.5em 4.5em;}
+  10% {font-size: 5vw;
+    color: greenyellow;
+    margin: 0.5em 4.5em;}
+  20%{font-size: 5vw;
+    color: white;
+    margin: 0.5em 0.5em;}
+  30%{font-size: 5vw;
+    color: greenyellow;
+    margin: 0.5em 3.5em;}
+  40%{font-size: 5vw;
+    color: white;
+    margin: 0.5em 3.5em;}
+  50%{font-size: 5vw;
+    color: greenyellow;
+    margin: 0.5em 3.5em;}
+  60%{font-size: 5vw;
+      color: white;
+      margin: 0.5em 3.5em;}
+  70%{font-size: 5vw;
+      color: greenyellow;
+      margin: 0.5em 0.5em;}
+  80%{font-size: xx-large;
+    color: white;
+    margin: 0.5em 0.5em;}
+  90%{font-size: xx-large;
+    color: greenyellow;
+    margin: 0.5em 0.5em;}
+  100%{font-size: xx-large;
+    color: white;
+    margin: 0.5em 0.5em;}
+}

@@ -1,0 +1,128 @@
+.fondo{
+    background-image: url("https://www.textureking.com/content/img/stock/big/DSC_5714.JPG");
+}
+
+/*media_query*/
+@media(min-width:801px){
+header{
+    text-align: center;
+    color: mintcream;
+    background-color: silver;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: -10px;
+    border-radius: 5px;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#description{
+    font-size: x-large;
+    margin-top: -25px;
+    font-style: italic;
+}
+#survey-form{
+    background-color: floralwhite;
+    /*margin: 0px 1000px 0px 250px;*/
+    border-radius: 10px;
+    text-align: left;
+    padding: 50px 150px 50px 50px;
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+form #name{
+    display: block;
+    flex-direction: column;
+    padding-right: 100px;
+    justify-content: center;
+}
+form #e-mail{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+form #email{
+    display: block;
+    flex-direction: column;
+    padding-right: 100px;
+    justify-content: center;
+}
+form #number{
+    display: block;
+    flex-direction: column;
+    padding-right: 100px;
+    justify-content: center;
+}
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+/*media_query*/
+@media(max-width:800px){
+    form #name{
+        display: block;
+        flex-direction: column;
+        padding-right: 100px;
+        justify-content: center;
+    }
+    form #e-mail{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    form #email{
+        display: block;
+        flex-direction: column;
+        padding-right: 100px;
+        justify-content: center;
+    }
+    form #number{
+        display: block;
+        flex-direction: column;
+        padding-right: 100px;
+        justify-content: center;
+    }
+    header{
+        color: mintcream;
+        background-color: silver;
+        display:block;
+        font-size:x-small;
+        justify-content:center;
+        padding: 5px 4px 5px 25px;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }    
+    #description{
+        text-align: left;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-size: 15px;
+        text-align: center;
+        font-style: italic;
+    }
+    form p{
+        text-align: left;
+        padding-top: -100px;
+        align-content: space-around;
+    }
+    #survey-form{
+        background-color:floralwhite;
+        border-radius: 10px;
+        text-align: left; 
+        display: block;
+        padding: 5px 10px 5px 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #comentarios{
+        margin-bottom: -10px;
+        
+    }
+    section #submit{
+        justify-content: center;
+        margin-top: -100px;
+        margin-bottom: 10px;
+    }
+}
